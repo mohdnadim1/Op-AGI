@@ -1,0 +1,21 @@
+Op-AGI/
+│── backend/               # Node.js + Express API
+│   ├── models/            # Database models
+│   ├── routes/            # API routes
+│   ├── controllers/       # Business logic
+│   ├── config/            # Configuration files
+│   ├── server.js          # Main backend entry point
+│
+│── frontend/              # React.js frontend
+│   ├── src/
+│   │   ├── components/    # Reusable UI components
+│   │   ├── pages/         # Pages (Home, Dashboard, Chat, etc.)
+│   │   ├── App.js         # Main React app file
+│   │   ├── index.js       # ReactDOM entry point
+│
+│── database/              # MongoDB setup
+│── docs/                  # Documentation and API references
+│── README.md              # Project overview and setup instructions
+│── package.json           # Dependencies and scripts
+│── .gitignore             # Ignore unnecessary files
+│── LICENSE                # Open-source license
